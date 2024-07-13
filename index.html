@@ -3,19 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Interactive Shopping List</title>
   </head>
   <body>
-    <h2>*Interactive Shopping List*</h2>
-    <form id="listForm" action="#" method="post">
-      <input type="text" id="item" name="item" placeholder="Item" />
-      <input type="submit" id="submitBtn" name="submitBtn" value="Add" />
-      <br />
-      <br />
-      <input type="button" id="clearList" name="clearList" value="Clear List" />
-    </form>
-    <div id="lists">
-      <ul id="buyItems"></ul>
+    <div id="main-container">
+      <h2>*Interactive Shopping List*</h2>
+      <form id="listForm" action="#" method="post">
+        <input type="text" id="item" name="item" placeholder="Item" />
+        <input type="submit" id="submitBtn" name="submitBtn" value="Add" />
+        <br />
+        <br />
+        <input
+          type="button"
+          id="clearList"
+          name="clearList"
+          value="Clear List"
+        />
+      </form>
+      <div id="lists">
+        <ul id="buyItems"></ul>
+      </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

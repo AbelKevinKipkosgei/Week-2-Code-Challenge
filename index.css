@@ -1,0 +1,10 @@
+.purchased {
+  text-decoration: line-through;
+  color: gray;
+}
+#main-container {
+  background-color: skyblue;
+}
+#buyItems {
+  cursor: pointer;
+}
